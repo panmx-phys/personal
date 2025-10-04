@@ -1,0 +1,15 @@
+title: Your Name
+description: Personal CV and portfolio
+# Use the Hyde theme via GitHub remote_theme
+remote_theme: poole/hyde
+
+# For local builds only (see "Develop locally" section)
+# plugins:
+#   - jekyll-remote-theme
+
+# Optional: set permalink style
+permalink: /:title/
+
+# Site URL (recommended once your site is live)
+# url: https://YOURUSERNAME.github.io
+# baseurl: ""  # leave empty for personal site; set to "/repo-name" for project site
