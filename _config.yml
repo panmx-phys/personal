@@ -2,15 +2,12 @@ title: Your Name
 description: Personal CV and portfolio
 # Use the Hyde theme via GitHub remote_theme
 
-# For local builds only (see "Develop locally" section)
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-remote-theme
-
-remote_theme: poole/hyde
-
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Optional: set permalink style
-permalink: /:title/
+#permalink: /:title/
 
 # Site URL (recommended once your site is live)
 # url: https://YOURUSERNAME.github.io
